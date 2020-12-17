@@ -1,0 +1,73 @@
+#footer {
+    font-family: 'Scope One', serif;
+}
+
+.footer-container {
+    background-color: black;
+    height: fit-content;
+    color: #FFE600;
+}
+
+.footer-logo {
+    padding: 24px;
+    width: 130px;
+}
+
+.sections-container, .social-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.phone-number {
+    font-size: 16px;
+}
+
+.contact-email {
+    font-size: 16px;
+}
+
+.subscribe-text {
+    font-size: 20px;
+}
+
+.contact-input {
+    background-color: #FFE600;
+    color: black;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 12px;
+    border: unset;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+}
+  
+:-ms-input-placeholder { 
+    color: black;
+}
+
+::-ms-input-placeholder { 
+    color: black;
+}
+
+.newsletter, .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
